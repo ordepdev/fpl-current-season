@@ -1,0 +1,22 @@
+{
+  "name": "fpl-current-season",
+  "version": "1.0.0",
+  "description": "Detect the current Fantasy Premier League season",
+  "license": "MIT",
+  "author": {
+    "name": "ordepdev",
+    "email": "pedrotavares.dev@gmail.com",
+    "url": "ordepdev.net"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "month": "^2.0.1",
+    "tape": "^4.2.2",
+    "year": "^0.2.1"
+  }
+}
